@@ -1,0 +1,7 @@
+include ':mine'
+include ':home'
+include ':find'
+include ':chat'
+include ':commonlib'
+include ':app'
+rootProject.name = "TestMu"

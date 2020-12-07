@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MuChat</string>
+    <string name="moudle_chat">Chat</string>
+    <string name="moudle_find">Find</string>
+    <string name="moudle_Home">Home</string>
+    <string name="moudle_mine">Mine</string>
+</resources>
