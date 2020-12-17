@@ -41,6 +41,7 @@ android {
                 manifest.srcFile 'src/main/AndroidManifest.xml'
             }else{
                 manifest.srcFile 'src/main/manifest/AndroidManifest.xml'
+                java.srcDir 'src/main/module'
             }
         }
     }
@@ -58,5 +59,8 @@ dependencies {
     implementation rootProject.ext.dependencies["arouter-api"]
     implementation rootProject.ext.dependencies["arouter-compiler"]
     annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
-    implementation project(path: ':commonlib')
+
+    rootProject.ext.dependencies.other.each{
+        implementation project(it)
+    }
 }

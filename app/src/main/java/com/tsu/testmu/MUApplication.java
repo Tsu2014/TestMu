@@ -3,6 +3,8 @@ package com.tsu.testmu;
 import android.app.Application;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.tsu.CommonLibTest;
+import com.tsu.annotation.AnnotationTest;
 
 public class MUApplication extends Application {
 
@@ -11,8 +13,8 @@ public class MUApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
         initARouterSDK();
+
     }
 
     private void initARouterSDK(){

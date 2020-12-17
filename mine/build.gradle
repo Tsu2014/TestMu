@@ -5,7 +5,7 @@ if (!isNeedMineModule.toBoolean()) {
 }
 
 android {
-    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]+1
     buildToolsVersion rootProject.ext.android["buildToolsVersion"]
 
     defaultConfig {
@@ -46,7 +46,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation project(path: ':commonlib')
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -58,4 +57,7 @@ dependencies {
     implementation rootProject.ext.dependencies["arouter-api"]
     annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
 
+    rootProject.ext.dependencies.other.each{
+        implementation project(it)
+    }
 }

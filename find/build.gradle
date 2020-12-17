@@ -55,6 +55,8 @@ dependencies {
     implementation rootProject.ext.dependencies["arouter-api"]
     implementation rootProject.ext.dependencies["constraint-layout"]
     annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
-    implementation project(path: ':commonlib')
+    rootProject.ext.dependencies.other.each{
+        implementation project(it)
+    }
 
 }
