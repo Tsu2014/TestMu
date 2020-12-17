@@ -1,3 +1,5 @@
+include ':annotaion_compiler'
+include ':annotation'
 include ':mine'
 include ':home'
 include ':find'
