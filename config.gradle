@@ -80,8 +80,8 @@ ext {
 
             other:[
                     ':commonlib',
-                    ':annotaion_compiler',
-                    ':annotation'
+                    //':annotaion_compiler',
+                    //':annotation'
             ]
 
     ]

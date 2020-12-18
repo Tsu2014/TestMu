@@ -4,7 +4,6 @@ import android.app.Application;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.tsu.CommonLibTest;
-import com.tsu.annotation.AnnotationTest;
 import com.tsu.router.SRouter;
 import com.tsu.testmu.activity.MainActivity;
 

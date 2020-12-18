@@ -10,8 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.tsu.annotation.BindPath;
 
-@Route(path = "/chat/main")
+//@Route(path = "/chat/main")
+@BindPath("/chat/main")
 public class MainActivity extends AppCompatActivity {
 
     private TextView textTV;
@@ -23,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_chat_main);
 
         ARouter.getInstance().inject(this);

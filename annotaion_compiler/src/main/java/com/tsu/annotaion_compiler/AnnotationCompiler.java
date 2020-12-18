@@ -3,6 +3,7 @@ package com.tsu.annotaion_compiler;
 import com.google.auto.service.AutoService;
 import com.tsu.annotation.BindPath;
 
+import java.io.IOException;
 import java.io.Writer;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -20,7 +21,7 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.tools.JavaFileObject;
 
-@AutoService(Processor.class) //标记这是注解处理器
+@AutoService(Processor.class)
 public class AnnotationCompiler extends AbstractProcessor {
 
     Filer filer;
@@ -36,10 +37,6 @@ public class AnnotationCompiler extends AbstractProcessor {
         return processingEnv.getSourceVersion();
     }
 
-    /**
-     * 生命这个注解处理器要识别的注解
-     * @return
-     */
     @Override
     public Set<String> getSupportedAnnotationTypes() {
         Set<String> types = new HashSet<>();
@@ -67,18 +64,20 @@ public class AnnotationCompiler extends AbstractProcessor {
                 writer = sourceFile.openWriter();
                 StringBuffer stringBuffer = new StringBuffer();
                 stringBuffer.append("package com.tsu.util;\n");
+                //stringBuffer.append("import android.util.Log;");
                 stringBuffer.append("import com.tsu.router.SRouter;\n");
                 stringBuffer.append("import com.tsu.router.IRouter;\n"+"\n"+"public class "+className+" implements IRouter {\n"+
-                        "    @override\n"+
+                        "    @Override\n"+
                         "    public void putActivity(){\n");
 
                 Iterator<String> iterator = map.keySet().iterator();
                 while(iterator.hasNext()){
                     String key = iterator.next();
                     String value = map.get(key);
-                    stringBuffer.append("SRouter.getInstance().addActivity(\""+key+"\","+value+");\n");
+                    stringBuffer.append("        SRouter.getInstance().addActivity(\""+key+"\","+value+");\n");
+                    //stringBuffer.append("        Log.d(\"Test\", \"key : "+key+" - value : "+value+"\");");
                 }
-                stringBuffer.append("\n}\n}");
+                stringBuffer.append("\n    }\n}");
                 writer.write(stringBuffer.toString());
             }catch(Exception e){
                 e.printStackTrace();
