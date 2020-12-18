@@ -8,6 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.tsu.router.SRouter;
 import com.tsu.testmu.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -59,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
                     ARouter.getInstance().build("/main/test1").navigation();
                     break;
                 case R.id.btnChat:
-                    ARouter.getInstance().build("/chat/main").withString("key3","hello").navigation();
+                    //ARouter.getInstance().build("/chat/main").withString("key3","hello").navigation();
+                    SRouter.getInstance().jumpActivity("/chat/chat" , null);
                     break;
                 case R.id.btnFind:
                     ARouter.getInstance().build("/find/main").navigation();

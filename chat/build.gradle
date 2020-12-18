@@ -60,6 +60,8 @@ dependencies {
     implementation rootProject.ext.dependencies["arouter-compiler"]
     annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
 
+    implementation project(path: ':annotation')
+    annotationProcessor project(path: ':annotaion_compiler')
     rootProject.ext.dependencies.other.each{
         implementation project(it)
     }

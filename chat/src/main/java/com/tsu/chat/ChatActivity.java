@@ -6,7 +6,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.tsu.annotation.BindPath;
 
 //@Route(path = "/chat/chat")
-@BindPath("chat/chat")
+@BindPath("/chat/chat")
 public class ChatActivity extends AppCompatActivity {
 
     @Override

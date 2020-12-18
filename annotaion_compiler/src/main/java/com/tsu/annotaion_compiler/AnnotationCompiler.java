@@ -76,9 +76,20 @@ public class AnnotationCompiler extends AbstractProcessor {
                 while(iterator.hasNext()){
                     String key = iterator.next();
                     String value = map.get(key);
+                    stringBuffer.append("SRouter.getInstance().addActivity(\""+key+"\","+value+");\n");
                 }
+                stringBuffer.append("\n}\n}");
+                writer.write(stringBuffer.toString());
             }catch(Exception e){
                 e.printStackTrace();
+            }finally {
+                if(writer != null){
+                    try{
+                        writer.close();
+                    }catch(IOException e){
+                        e.printStackTrace();
+                    }
+                }
             }
         }
 
