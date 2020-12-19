@@ -64,13 +64,16 @@ public class MainActivity extends AppCompatActivity {
                     SRouter.getInstance().jumpActivity("/chat/main" , null);
                     break;
                 case R.id.btnFind:
-                    ARouter.getInstance().build("/find/main").navigation();
+                    //ARouter.getInstance().build("/find/main").navigation();
+                    SRouter.getInstance().jumpActivity("/find/main");
                     break;
                 case R.id.btnHome:
-                    ARouter.getInstance().build("/home/main").navigation();
+                    //ARouter.getInstance().build("/home/main").navigation();
+                    SRouter.getInstance().jumpActivity("/home/main");
                     break;
                 case R.id.btnMine:
-                    ARouter.getInstance().build("/mine/main").navigation();
+                    //ARouter.getInstance().build("/mine/main").navigation();
+                    SRouter.getInstance().jumpActivity("/mine/main");
                     break;
                 default:
 

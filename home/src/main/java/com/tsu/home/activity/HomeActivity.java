@@ -6,9 +6,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.tsu.annotation.BindPath;
 import com.tsu.home.R;
 
-@Route(path = "/home/main")
+//@Route(path = "/home/main")
+@BindPath("/home/main")
 public class HomeActivity extends AppCompatActivity {
 
     @Override

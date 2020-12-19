@@ -4,14 +4,12 @@ import android.content.Context;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.tsu.annotation.AnnotationTest;
-
 public class CommonLibTest {
 
     private static String TAG = "CommonLibTest";
 
     public static void main(String [] args){
-        AnnotationTest test = new AnnotationTest();
+
     }
 
     public static void test(){

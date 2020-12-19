@@ -53,9 +53,13 @@ dependencies {
     implementation rootProject.ext.dependencies["timber"]
     implementation rootProject.ext.dependencies["glide"]
     implementation rootProject.ext.dependencies["recyclerview-v7"]
-    implementation project(path: ':annotation')
-    annotationProcessor project(path: ':annotaion_compiler')
+    //implementation project(path: ':annotation')
+    //annotationProcessor project(path: ':annotaion_compiler')
     compileOnly rootProject.ext.dependencies["javax.annotation"]
     annotationProcessor rootProject.ext.dependencies["dagger2-apt-compiler"]
+
+    rootProject.ext.dependencies.anno.each{
+        annotationProcessor project(it)
+    }
 
 }

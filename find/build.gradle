@@ -58,5 +58,8 @@ dependencies {
     rootProject.ext.dependencies.other.each{
         implementation project(it)
     }
+    rootProject.ext.dependencies.anno.each{
+        annotationProcessor project(it)
+    }
 
 }

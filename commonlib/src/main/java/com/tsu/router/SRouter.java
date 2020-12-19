@@ -58,6 +58,10 @@ public class SRouter {
         }
     }
 
+    public void jumpActivity(String key){
+        jumpActivity(key , null);
+    }
+
     public void jumpActivity(String key , Bundle bundle){
         Log.d(TAG , "map size : "+map.size());
         Set<String> keySets = map.keySet();

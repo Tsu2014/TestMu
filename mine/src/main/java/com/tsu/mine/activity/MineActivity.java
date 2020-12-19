@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.tsu.annotation.BindPath;
 import com.tsu.mine.R;
 
-@Route(path = "/mine/main")
+//@Route(path = "/mine/main")
+@BindPath("/mine/main")
 public class MineActivity extends AppCompatActivity {
 
     @Override
