@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.btnChat:
                     //ARouter.getInstance().build("/chat/main").withString("key3","hello").navigation();
-                    SRouter.getInstance().jumpActivity("/chat/chat" , null);
+                    SRouter.getInstance().jumpActivity("/chat/main" , null);
                     break;
                 case R.id.btnFind:
                     ARouter.getInstance().build("/find/main").navigation();

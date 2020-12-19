@@ -6,10 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
+import dalvik.system.DexFile;
 
 public class SRouter {
     private static final String TAG = "SRouter";
@@ -29,15 +34,28 @@ public class SRouter {
 
     public void init(Context context){
         this.context = context;
+        List<String> className = getClassName("com.tsu.util");
+        for(String s : className){
+            Class<?> aClass = null;
+            try{
+                aClass = Class.forName(s);
+                if(IRouter.class.isAssignableFrom(aClass)){
+                    IRouter iRouter = (IRouter)aClass.newInstance();
+                    iRouter.putActivity();
+                }
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+        }
     }
 
     public void addActivity(String key , Class<? extends Activity> clazz){
+        Log.d(TAG , "addActivity failed  key : "+key + " , value : "+clazz);
         if(clazz != null &&  key != null && !map.containsKey(key)){
             map.put(key , clazz);
         }else{
-            Log.d(TAG , "addActivity failed  key : "+key + " , value : "+clazz);
-        }
 
+        }
     }
 
     public void jumpActivity(String key , Bundle bundle){
@@ -56,9 +74,31 @@ public class SRouter {
         }
 
         Intent intent = new Intent(context , activityClass );
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK );
         if(bundle != null){
             intent.putExtras(bundle);
         }
         context.startActivity(intent);
+    }
+
+    private List<String> getClassName(String packageName){
+        List<String> classList = new ArrayList<>();
+        String path = null;
+        try{
+            path = context.getPackageManager().getApplicationInfo(context.getPackageName() , 0).sourceDir;
+
+            DexFile dexfile = new DexFile(path);
+            Enumeration entries = dexfile.entries();
+            while(entries.hasMoreElements()){
+                String name = (String)entries.nextElement();
+                if(name.contains(packageName)){
+                    classList.add(name);
+                }
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+        return classList;
     }
 }
