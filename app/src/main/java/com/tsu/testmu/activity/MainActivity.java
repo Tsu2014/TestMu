@@ -10,9 +10,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.tsu.annotation_bk.TSUBindView;
+import com.tsu.annotation_bk.TSUButterKnife;
 import com.tsu.router.SRouter;
 import com.tsu.testmu.R;
-import com.tsu.testmu.common.TSUButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,33 +21,29 @@ public class MainActivity extends AppCompatActivity {
 
     @TSUBindView(R.id.main_textView)
     TextView textView;
-    private Button mainButton;
-
-    public Button chatButton;
-    private Button findButton;
-    private Button homeButton;
-    private Button mineButton;
+    @TSUBindView(R.id.btnMain)
+    Button mainButton;
+    @TSUBindView(R.id.btnChat)
+    Button chatButton;
+    @TSUBindView(R.id.btnFind)
+    Button findButton;
+    @TSUBindView(R.id.btnHome)
+    Button homeButton;
+    @TSUBindView(R.id.btnMine)
+    Button mineButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TSUButterKnife.bind(this);
-        initViews();
+
         setListeners();
         init();
     }
 
     private void init(){
-        textView.setText("122");
-    }
-
-    private void initViews(){
-        mainButton = findViewById(R.id.btnMain);
-        chatButton = findViewById(R.id.btnChat);
-        findButton = findViewById(R.id.btnFind);
-        homeButton = findViewById(R.id.btnHome);
-        mineButton = findViewById(R.id.btnMine);
+        textView.setText("123");
     }
 
     private void setListeners(){

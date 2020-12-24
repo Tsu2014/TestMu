@@ -1,8 +1,4 @@
-package com.tsu.testmu.common;
-
-import android.util.Log;
-
-import java.lang.reflect.Method;
+package com.tsu.annotation_bk;
 
 public class TSUButterKnife {
 
@@ -11,7 +7,6 @@ public class TSUButterKnife {
     public static void bind(Object activity){
         String name = activity.getClass().getName();
         String binderName = name+"$$ViewBinder";
-        Log.d(TAG , "binderName : "+binderName);
         try {
             Class<?> aClass = Class.forName(binderName);
             Object binder = aClass.newInstance();

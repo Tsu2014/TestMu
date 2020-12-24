@@ -85,7 +85,7 @@ public class BKAnnotationCompiler extends AbstractProcessor {
                     writer = sourceFile.openWriter();
                     StringBuffer stringBuffer = new StringBuffer();
                     stringBuffer.append("package "+packageName+";\n");
-                    stringBuffer.append("import com.tsu.testmu.common.ITSUButterKnifer;\n");
+                    stringBuffer.append("import com.tsu.annotation_bk.ITSUButterKnifer;\n");
                     stringBuffer.append("import android.view.View;\n\n");
                     stringBuffer.append("public class "+newName+" implements ITSUButterKnifer<"+packageName+"."+activityName+"> {\n");
                     stringBuffer.append("    public void bind("+packageName+"."+activityName+" target){\n");
