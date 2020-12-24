@@ -1,4 +1,6 @@
-include ':annotaion_compiler'
+include ':annotation_bk'
+include ':annotation_bk_compiler'
+include ':annotation_compiler'
 include ':annotation'
 include ':mine'
 include ':home'

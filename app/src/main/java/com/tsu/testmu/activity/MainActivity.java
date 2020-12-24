@@ -4,19 +4,26 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.tsu.annotation_bk.TSUBindView;
 import com.tsu.router.SRouter;
 import com.tsu.testmu.R;
+import com.tsu.testmu.common.TSUButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
     private final String TAG = "MainActivity";
     private static boolean isDebug = true;
+
+    @TSUBindView(R.id.main_textView)
+    TextView textView;
     private Button mainButton;
-    private Button chatButton;
+
+    public Button chatButton;
     private Button findButton;
     private Button homeButton;
     private Button mineButton;
@@ -25,14 +32,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        TSUButterKnife.bind(this);
         initViews();
         setListeners();
         init();
     }
 
     private void init(){
-
+        textView.setText("122");
     }
 
     private void initViews(){
