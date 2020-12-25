@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TSUButterKnife.bind(this);
-        setListeners();
+        //setListeners();
         init();
     }
 
@@ -46,15 +46,30 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("123");
     }
 
-    private void setListeners(){
-        mainButton.setOnClickListener(onClickListener);
-        //chatButton.setOnClickListener(onClickListener);
-        findButton.setOnClickListener(onClickListener);
-        homeButton.setOnClickListener(onClickListener);
-        mineButton.setOnClickListener(onClickListener);
+    @TSUOnClick(R.id.btnChat)
+    public void doChatAction(){
+        SRouter.getInstance().jumpActivity("/chat/main" , null);
     }
 
-    @TSUOnClick(R.id.btnChat)
+    @TSUOnClick(R.id.btnFind)
+    public void doFindAction(){
+        SRouter.getInstance().jumpActivity("/find/main");
+    }
+
+    @TSUOnClick(R.id.btnHome)
+    public void doHomeAction(){
+        SRouter.getInstance().jumpActivity("/home/main");
+    }
+
+    @TSUOnClick(R.id.btnMine)
+    public void doMineAction(){
+        SRouter.getInstance().jumpActivity("/mine/main");
+    }
+
+    @TSUOnClick(R.id.btnMain)
+    public void doMainAction(){
+        ARouter.getInstance().build("/main/test1").navigation();
+    }
     View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {

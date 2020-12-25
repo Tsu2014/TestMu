@@ -22,6 +22,7 @@ import javax.annotation.processing.Processor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
+import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
@@ -110,18 +111,18 @@ public class BKAnnotationCompiler extends AbstractProcessor {
     }
 
     private void processTSUOnClick(Set<? extends Element> elementsOnClick){
-        Map<String , List<VariableElement>> map = new HashMap<>();
+        Map<String , List<ExecutableElement>> map = new HashMap<>();
         for(Element element : elementsOnClick){
-            VariableElement variableElement = (VariableElement)element;
+            ExecutableElement executableElement = (ExecutableElement)element;
             //get this variable's class
-            TypeElement typeElement = (TypeElement) variableElement.getEnclosingElement();
+            TypeElement typeElement = (TypeElement) executableElement.getEnclosingElement();
             String activityName = typeElement.getSimpleName().toString();
-            List<VariableElement> variableElements = map.get(activityName);
-            if(variableElements == null){
-                variableElements = new ArrayList<>();
-                map.put(activityName , variableElements);
+            List<ExecutableElement> executableElements = map.get(activityName);
+            if(executableElements == null){
+                executableElements = new ArrayList<>();
+                map.put(activityName , executableElements);
             }
-            variableElements.add(variableElement);
+            executableElements.add(executableElement);
         }
 
         if(map.size()>0){
@@ -129,8 +130,8 @@ public class BKAnnotationCompiler extends AbstractProcessor {
             Iterator<String> iterator = map.keySet().iterator();
             while(iterator.hasNext()){
                 String activityName = iterator.next();
-                List<VariableElement> variableElements = map.get(activityName);
-                String packageName = getPackageName(variableElements.get(0));
+                List<ExecutableElement> executableElements = map.get(activityName);
+                String packageName = getPackageName(executableElements.get(0));
                 String newName = activityName+"$$OnClick";
                 //create Java file
                 try {
@@ -141,11 +142,11 @@ public class BKAnnotationCompiler extends AbstractProcessor {
                     stringBuffer.append("import com.tsu.annotation_bk.ITSUButterKnifer1;\n");
                     stringBuffer.append("import android.view.View;\n\n");
                     stringBuffer.append("public class "+newName+" implements ITSUButterKnifer1<"+packageName+"."+activityName+"> {\n");
-                    stringBuffer.append("    public void setListener("+packageName+"."+activityName+" target){\n");
-                    for(VariableElement variableElement : variableElements){
-                        String variableName = variableElement.getSimpleName().toString();
-                        int resId = variableElement.getAnnotation(TSUOnClick.class).value();
-                        stringBuffer.append("        target.findViewById("+resId+").setOnClickListener(target."+variableName+");\n");
+                    stringBuffer.append("\tpublic void setListener(final "+packageName+"."+activityName+" target){\n");
+                    for(ExecutableElement executableElement : executableElements) {
+                        String methodName = executableElement.getSimpleName().toString();
+                        int resId = executableElement.getAnnotation(TSUOnClick.class).value();
+                        stringBuffer.append("\t\ttarget.findViewById(" + resId + ").setOnClickListener(new View.OnClickListener(){ \n\t\t\t@Override\n\t\t\tpublic void onClick(View v) {\n\t\t\t\ttarget." + methodName + "();\n\t\t\t}\n\t\t});\n");
                     }
                     stringBuffer.append("    }\n}\n");
                     writer.write(stringBuffer.toString());
@@ -174,9 +175,11 @@ public class BKAnnotationCompiler extends AbstractProcessor {
         return false;
     }
 
-    public String getPackageName(VariableElement variableElement){
+    public String getPackageName(Element variableElement){
         TypeElement typeElement = (TypeElement)variableElement.getEnclosingElement();
         PackageElement packageOf = processingEnv.getElementUtils().getPackageOf(typeElement);
         return packageOf.getQualifiedName().toString();
     }
+
+
 }
