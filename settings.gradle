@@ -1,3 +1,4 @@
+include ':httpLib'
 include ':annotation_bk'
 include ':annotation_bk_compiler'
 include ':annotation_compiler'

@@ -70,34 +70,5 @@ public class MainActivity extends AppCompatActivity {
     public void doMainAction(){
         ARouter.getInstance().build("/main/test1").navigation();
     }
-    View.OnClickListener onClickListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            switch(v.getId()){
-                case R.id.btnMain:
-                    Log.d(TAG , "button1");
-                    ARouter.getInstance().build("/main/test1").navigation();
-                    break;
-                case R.id.btnChat:
-                    //ARouter.getInstance().build("/chat/main").withString("key3","hello").navigation();
-                    SRouter.getInstance().jumpActivity("/chat/main" , null);
-                    break;
-                case R.id.btnFind:
-                    //ARouter.getInstance().build("/find/main").navigation();
-                    SRouter.getInstance().jumpActivity("/find/main");
-                    break;
-                case R.id.btnHome:
-                    //ARouter.getInstance().build("/home/main").navigation();
-                    SRouter.getInstance().jumpActivity("/home/main");
-                    break;
-                case R.id.btnMine:
-                    //ARouter.getInstance().build("/mine/main").navigation();
-                    SRouter.getInstance().jumpActivity("/mine/main");
-                    break;
-                default:
 
-            }
-            Log.d(TAG , "onClickListenrer : "+v.getTag());
-        }
-    };
 }
