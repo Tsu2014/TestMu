@@ -8,4 +8,5 @@ include ':find'
 include ':chat'
 include ':commonlib'
 include ':app'
+include ':httpLib'
 rootProject.name = "TestMu"

@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.tsu.annotation_bk.TSUBindView;
 import com.tsu.annotation_bk.TSUButterKnife;
+import com.tsu.annotation_bk.TSUOnClick;
 import com.tsu.router.SRouter;
 import com.tsu.testmu.R;
 
@@ -37,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TSUButterKnife.bind(this);
-
         setListeners();
         init();
     }
@@ -48,13 +48,14 @@ public class MainActivity extends AppCompatActivity {
 
     private void setListeners(){
         mainButton.setOnClickListener(onClickListener);
-        chatButton.setOnClickListener(onClickListener);
+        //chatButton.setOnClickListener(onClickListener);
         findButton.setOnClickListener(onClickListener);
         homeButton.setOnClickListener(onClickListener);
         mineButton.setOnClickListener(onClickListener);
     }
 
-    private View.OnClickListener onClickListener = new View.OnClickListener() {
+    @TSUOnClick(R.id.btnChat)
+    View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             switch(v.getId()){

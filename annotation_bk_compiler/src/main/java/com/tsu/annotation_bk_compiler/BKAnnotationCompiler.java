@@ -2,6 +2,7 @@ package com.tsu.annotation_bk_compiler;
 
 import com.google.auto.service.AutoService;
 import com.tsu.annotation_bk.TSUBindView;
+import com.tsu.annotation_bk.TSUOnClick;
 
 import java.io.IOException;
 import java.io.Writer;
@@ -53,12 +54,9 @@ public class BKAnnotationCompiler extends AbstractProcessor {
         return processingEnv.getSourceVersion();
     }
 
-    @Override
-    public boolean process(Set<? extends TypeElement> set, RoundEnvironment roundEnvironment) {
-        Set<? extends Element> elementsAnnoationWith = roundEnvironment.getElementsAnnotatedWith(TSUBindView.class);
-        //TypeElement class\ VariableElement variable\ ExecutableElement function\ PackageElement package
+    private void processTSUBindView(Set<? extends Element> elementsBindView){
         Map<String , List<VariableElement>> map = new HashMap<>();
-        for(Element element : elementsAnnoationWith){
+        for(Element element : elementsBindView){
             VariableElement variableElement = (VariableElement)element;
             //get this variable's class
             TypeElement typeElement = (TypeElement) variableElement.getEnclosingElement();
@@ -109,6 +107,70 @@ public class BKAnnotationCompiler extends AbstractProcessor {
                 }
             }
         }
+    }
+
+    private void processTSUOnClick(Set<? extends Element> elementsOnClick){
+        Map<String , List<VariableElement>> map = new HashMap<>();
+        for(Element element : elementsOnClick){
+            VariableElement variableElement = (VariableElement)element;
+            //get this variable's class
+            TypeElement typeElement = (TypeElement) variableElement.getEnclosingElement();
+            String activityName = typeElement.getSimpleName().toString();
+            List<VariableElement> variableElements = map.get(activityName);
+            if(variableElements == null){
+                variableElements = new ArrayList<>();
+                map.put(activityName , variableElements);
+            }
+            variableElements.add(variableElement);
+        }
+
+        if(map.size()>0){
+            Writer writer = null;
+            Iterator<String> iterator = map.keySet().iterator();
+            while(iterator.hasNext()){
+                String activityName = iterator.next();
+                List<VariableElement> variableElements = map.get(activityName);
+                String packageName = getPackageName(variableElements.get(0));
+                String newName = activityName+"$$OnClick";
+                //create Java file
+                try {
+                    JavaFileObject sourceFile = filer.createSourceFile(packageName+"."+newName);
+                    writer = sourceFile.openWriter();
+                    StringBuffer stringBuffer = new StringBuffer();
+                    stringBuffer.append("package "+packageName+";\n");
+                    stringBuffer.append("import com.tsu.annotation_bk.ITSUButterKnifer1;\n");
+                    stringBuffer.append("import android.view.View;\n\n");
+                    stringBuffer.append("public class "+newName+" implements ITSUButterKnifer1<"+packageName+"."+activityName+"> {\n");
+                    stringBuffer.append("    public void setListener("+packageName+"."+activityName+" target){\n");
+                    for(VariableElement variableElement : variableElements){
+                        String variableName = variableElement.getSimpleName().toString();
+                        int resId = variableElement.getAnnotation(TSUOnClick.class).value();
+                        stringBuffer.append("        target.findViewById("+resId+").setOnClickListener(target."+variableName+");\n");
+                    }
+                    stringBuffer.append("    }\n}\n");
+                    writer.write(stringBuffer.toString());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }finally {
+                    if(writer!=null){
+                        try {
+                            writer.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @Override
+    public boolean process(Set<? extends TypeElement> set, RoundEnvironment roundEnvironment) {
+        Set<? extends Element> elementsBindView = roundEnvironment.getElementsAnnotatedWith(TSUBindView.class);
+        //TypeElement class\ VariableElement variable\ ExecutableElement function\ PackageElement package
+        processTSUBindView(elementsBindView);
+        Set<? extends Element> elementsOnClick = roundEnvironment.getElementsAnnotatedWith(TSUOnClick.class);
+        processTSUOnClick(elementsOnClick);
         return false;
     }
 
