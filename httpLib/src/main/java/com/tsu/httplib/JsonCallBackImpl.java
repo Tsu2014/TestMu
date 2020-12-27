@@ -10,12 +10,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class JsonCallBackImpl<M> implements CallBackListener{
-    private Class<M>  response;
+public class JsonCallBackImpl<M> implements CallBackListener {
+    private Class<M> response;
     private IJsonListener iJsonListener;
     private Handler handler = new Handler(Looper.getMainLooper());
 
-    public JsonCallBackImpl(Class<M> response , IJsonListener iJsonListener){
+    public JsonCallBackImpl(Class<M> response, IJsonListener iJsonListener) {
         this.response = response;
         this.iJsonListener = iJsonListener;
     }
@@ -23,7 +23,7 @@ public class JsonCallBackImpl<M> implements CallBackListener{
     @Override
     public void onSuccess(InputStream inputStream) {
         String content = getContent(inputStream);
-        M m = JSON.parseObject(content , response);
+        M m = JSON.parseObject(content, response);
         handler.post(new Runnable() {
             @Override
             public void run() {
@@ -44,17 +44,17 @@ public class JsonCallBackImpl<M> implements CallBackListener{
         });
     }
 
-    private String getContent(InputStream inputStream){
+    private String getContent(InputStream inputStream) {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
         StringBuilder stringBuilder = new StringBuilder();
         String line = null;
-        try{
-            while((line = bufferedReader.readLine())!=null){
-                stringBuilder.append(line+"/n");
+        try {
+            while ((line = bufferedReader.readLine()) != null) {
+                stringBuilder.append(line + "/n");
             }
-        }catch(IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             try {
                 inputStream.close();
             } catch (IOException e) {
@@ -67,6 +67,6 @@ public class JsonCallBackImpl<M> implements CallBackListener{
             }
         }
 
-        return stringBuilder.toString().replace("/n","");
+        return stringBuilder.toString().replace("/n", "");
     }
 }

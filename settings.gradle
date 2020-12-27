@@ -1,3 +1,4 @@
+include ':ImageLib'
 include ':httpLib'
 include ':annotation_bk'
 include ':annotation_bk_compiler'
