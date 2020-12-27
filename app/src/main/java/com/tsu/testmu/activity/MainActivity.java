@@ -12,6 +12,8 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import com.tsu.annotation_bk.TSUBindView;
 import com.tsu.annotation_bk.TSUButterKnife;
 import com.tsu.annotation_bk.TSUOnClick;
+import com.tsu.httplib.IJsonListener;
+import com.tsu.httplib.TSUHttp;
 import com.tsu.router.SRouter;
 import com.tsu.testmu.R;
 
@@ -69,6 +71,20 @@ public class MainActivity extends AppCompatActivity {
     @TSUOnClick(R.id.btnMain)
     public void doMainAction(){
         ARouter.getInstance().build("/main/test1").navigation();
+    }
+
+    public void sendMessage(View view){
+        TSUHttp.sendMessage("", null, null, new IJsonListener() {
+            @Override
+            public void onSuccess(Object L) {
+
+            }
+
+            @Override
+            public void onFailed() {
+
+            }
+        });
     }
 
 }

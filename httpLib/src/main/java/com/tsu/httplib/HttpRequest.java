@@ -65,8 +65,19 @@ public class HttpRequest implements IHttpRequest{
             }
         } catch (MalformedURLException e) {
             e.printStackTrace();
+            throw new RuntimeException("request failed !");
         } catch (IOException e) {
             e.printStackTrace();
+            throw new RuntimeException("request failed !");
+        }finally {
+            httpURLConnection.disconnect();
         }
     }
+
+    @Override
+    public CallBackListener getCallBackListener() {
+        return this.callBackListener;
+    }
+
+
 }

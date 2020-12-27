@@ -77,7 +77,7 @@ ext {
             "constraint-layout"      : 'androidx.constraintlayout:constraintlayout:2.0.1',//约束性布局
             "test:runner"            : 'com.android.support.test:runner:1.0.2',//测试依赖，新建项目时会默认添加，一般不建议添加
             "espresso-core"          : 'com.android.support.test.espresso:espresso-core:3.0.2',//测试依赖，新建项目时会默认添加，一般不建议添加
-
+            "fastjson"               : 'com.alibaba:fastjson:1.2.73',
             other:[
                     ':commonlib',
                     ':annotation',

@@ -5,4 +5,5 @@ public interface IHttpRequest {
     void setData(byte[] bytes);
     void setListener(CallBackListener callBackListener);
     void excute();
+    CallBackListener getCallBackListener();
 }
