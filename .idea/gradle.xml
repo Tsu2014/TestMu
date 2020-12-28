@@ -10,6 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ImageLib" />
+            <option value="$PROJECT_DIR$/TSU_BUS" />
             <option value="$PROJECT_DIR$/annotation" />
             <option value="$PROJECT_DIR$/annotation_bk" />
             <option value="$PROJECT_DIR$/annotation_bk_compiler" />

@@ -16,6 +16,8 @@ import com.tsu.httplib.IJsonListener;
 import com.tsu.httplib.TSUHttp;
 import com.tsu.router.SRouter;
 import com.tsu.testmu.R;
+import com.tsu.tsu_bus.Subscribe;
+import com.tsu.tsu_bus.TSUBus;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TSUButterKnife.bind(this);
-        //setListeners();
+        TSUBus.getInstance().regist(this);
         init();
     }
 
@@ -85,6 +87,15 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Subscribe
+    public void getMessage(String name){
+
+    }
+
+    public void sendMessage(){
+
     }
 
 }
