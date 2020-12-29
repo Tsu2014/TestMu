@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TestMu.iml" filepath="$PROJECT_DIR$/.idea/TestMu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageLib/TestMu.ImageLib.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageLib/TestMu.ImageLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSU_BUS/TestMu.TSU_BUS.iml" filepath="$PROJECT_DIR$/.idea/modules/TSU_BUS/TestMu.TSU_BUS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/annotation/TestMu.annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/annotation/TestMu.annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/annotation_bk/TestMu.annotation_bk.iml" filepath="$PROJECT_DIR$/.idea/modules/annotation_bk/TestMu.annotation_bk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/annotation_bk_compiler/TestMu.annotation_bk_compiler.iml" filepath="$PROJECT_DIR$/.idea/modules/annotation_bk_compiler/TestMu.annotation_bk_compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/annotaion_compiler/TestMu.annotation_compiler.iml" filepath="$PROJECT_DIR$/.idea/modules/annotaion_compiler/TestMu.annotation_compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TestMu.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TestMu.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chat/TestMu.chat.iml" filepath="$PROJECT_DIR$/.idea/modules/chat/TestMu.chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonlib/TestMu.commonlib.iml" filepath="$PROJECT_DIR$/.idea/modules/commonlib/TestMu.commonlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/find/TestMu.find.iml" filepath="$PROJECT_DIR$/.idea/modules/find/TestMu.find.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home/TestMu.home.iml" filepath="$PROJECT_DIR$/.idea/modules/home/TestMu.home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpLib/TestMu.httpLib.iml" filepath="$PROJECT_DIR$/.idea/modules/httpLib/TestMu.httpLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mine/TestMu.mine.iml" filepath="$PROJECT_DIR$/.idea/modules/mine/TestMu.mine.iml" />
+    </modules>
+  </component>
+</project>
