@@ -9,5 +9,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface Subscribe {
-
+    ThreadMode threadMode() default ThreadMode.POSTING;
+    //receiver key
+    String key();
 }

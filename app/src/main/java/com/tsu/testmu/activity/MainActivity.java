@@ -20,6 +20,7 @@ import com.tsu.router.SRouter;
 import com.tsu.testmu.R;
 import com.tsu.tsu_bus.Subscribe;
 import com.tsu.tsu_bus.TSUBus;
+import com.tsu.tsu_bus.ThreadMode;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -93,9 +94,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @Subscribe
+    @Subscribe(threadMode = ThreadMode.BACKGROUND , key = "tsu1")
     public void getMessage(final String name){
         Log.d(TAG , "Main : getMessage : "+name);
+        //Toast.makeText(this , "Main : "+name , Toast.LENGTH_SHORT).show();
     }
 
     public void sendMessage(){
@@ -108,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    TSUBus.getInstance().post(""+System.currentTimeMillis());
+                    TSUBus.getInstance().post(""+System.currentTimeMillis() , "tsu1");
                 }
             }
         };
