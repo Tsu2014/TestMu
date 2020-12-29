@@ -1,10 +1,12 @@
 package com.tsu.testmu.activity;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -48,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void init(){
         textView.setText("123");
+        sendMessage();
     }
 
     @TSUOnClick(R.id.btnChat)
@@ -73,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
     @TSUOnClick(R.id.btnMain)
     public void doMainAction(){
         ARouter.getInstance().build("/main/test1").navigation();
+        //sendMessage();
     }
 
     public void sendMessage(View view){
@@ -90,12 +94,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Subscribe
-    public void getMessage(String name){
-
+    public void getMessage(final String name){
+        Log.d(TAG , "Main : getMessage : "+name);
     }
 
     public void sendMessage(){
-
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                while(true){
+                    try {
+                        Thread.sleep(5*1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    TSUBus.getInstance().post(""+System.currentTimeMillis());
+                }
+            }
+        };
+        new Thread(runnable).start();
     }
 
 }
