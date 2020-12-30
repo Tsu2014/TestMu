@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void init(){
         textView.setText("123");
-        sendMessage();
+        //sendMessage();
     }
 
     @TSUOnClick(R.id.btnChat)
