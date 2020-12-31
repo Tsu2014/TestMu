@@ -78,6 +78,7 @@ ext {
             "test:runner"            : 'com.android.support.test:runner:1.0.2',//测试依赖，新建项目时会默认添加，一般不建议添加
             "espresso-core"          : 'com.android.support.test.espresso:espresso-core:3.0.2',//测试依赖，新建项目时会默认添加，一般不建议添加
             "fastjson"               : 'com.alibaba:fastjson:1.2.73',
+            "javapoet"               : 'com.squareup:javapoet:1.13.0',
             other:[
                     ':commonlib',
                     ':annotation',

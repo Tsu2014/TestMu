@@ -1,6 +1,9 @@
 package com.tsu.annotation_bk_compiler;
 
 import com.google.auto.service.AutoService;
+import com.squareup.javapoet.MethodSpec;
+import com.squareup.javapoet.TypeSpec;
+import com.tsu.annotation_bk.ITSUButterKnifer;
 import com.tsu.annotation_bk.TSUBindView;
 import com.tsu.annotation_bk.TSUOnClick;
 
@@ -23,6 +26,7 @@ import javax.annotation.processing.RoundEnvironment;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
+import javax.lang.model.element.Modifier;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
@@ -71,40 +75,69 @@ public class BKAnnotationCompiler extends AbstractProcessor {
         }
 
         if(map.size()>0){
-            Writer writer = null;
+
             Iterator<String> iterator = map.keySet().iterator();
             while(iterator.hasNext()){
                 String activityName = iterator.next();
                 List<VariableElement> variableElements = map.get(activityName);
                 String packageName = getPackageName(variableElements.get(0));
                 String newName = activityName+"$$ViewBinder";
-                //create Java file
+                createJavaFile(activityName , packageName , newName , variableElements);
+            }
+        }
+    }
+
+    private void createJavaFileByPoet(String activityName , String pkgName , String className , List<VariableElement> variableElements){
+        try {
+            MethodSpec.Builder bindBuilder = MethodSpec.methodBuilder("bind")
+                    .addModifiers(Modifier.PUBLIC)
+                    .returns(void.class)
+                    .addParameter(Class.forName(pkgName+"."+activityName).getComponentType() , "target");
+
+            for(VariableElement variableElement : variableElements){
+                String variableName = variableElement.getSimpleName().toString();
+                int resId = variableElement.getAnnotation(TSUBindView.class).value();
+                //stringBuffer.append("        target."+variableName+"=target.findViewById("+resId+");\n");
+                bindBuilder.addStatement("target.$S=target.findViewById($S)",variableName,""+resId);
+            }
+            MethodSpec bind = bindBuilder.build();
+
+            TypeSpec classSpec = TypeSpec.classBuilder(className)
+                    .addModifiers(Modifier.PUBLIC)
+                    .addSuperinterface(ITSUButterKnifer.class).build();
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void createJavaFile(String activityName , String pkgName , String className , List<VariableElement> variableElements){
+        //create Java file
+        Writer writer = null;
+        try {
+            JavaFileObject sourceFile = filer.createSourceFile(pkgName+"."+className);
+            writer = sourceFile.openWriter();
+            StringBuffer stringBuffer = new StringBuffer();
+            stringBuffer.append("package "+pkgName+";\n");
+            stringBuffer.append("import com.tsu.annotation_bk.ITSUButterKnifer;\n");
+            stringBuffer.append("import android.view.View;\n\n");
+            stringBuffer.append("public class "+className+" implements ITSUButterKnifer<"+pkgName+"."+activityName+"> {\n");
+            stringBuffer.append("    public void bind("+pkgName+"."+activityName+" target){\n");
+            for(VariableElement variableElement : variableElements){
+                String variableName = variableElement.getSimpleName().toString();
+                int resId = variableElement.getAnnotation(TSUBindView.class).value();
+                stringBuffer.append("        target."+variableName+"=target.findViewById("+resId+");\n");
+            }
+            stringBuffer.append("    }\n}\n");
+            writer.write(stringBuffer.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally {
+            if(writer!=null){
                 try {
-                    JavaFileObject sourceFile = filer.createSourceFile(packageName+"."+newName);
-                    writer = sourceFile.openWriter();
-                    StringBuffer stringBuffer = new StringBuffer();
-                    stringBuffer.append("package "+packageName+";\n");
-                    stringBuffer.append("import com.tsu.annotation_bk.ITSUButterKnifer;\n");
-                    stringBuffer.append("import android.view.View;\n\n");
-                    stringBuffer.append("public class "+newName+" implements ITSUButterKnifer<"+packageName+"."+activityName+"> {\n");
-                    stringBuffer.append("    public void bind("+packageName+"."+activityName+" target){\n");
-                    for(VariableElement variableElement : variableElements){
-                        String variableName = variableElement.getSimpleName().toString();
-                        int resId = variableElement.getAnnotation(TSUBindView.class).value();
-                        stringBuffer.append("        target."+variableName+"=target.findViewById("+resId+");\n");
-                    }
-                    stringBuffer.append("    }\n}\n");
-                    writer.write(stringBuffer.toString());
+                    writer.close();
                 } catch (IOException e) {
                     e.printStackTrace();
-                }finally {
-                    if(writer!=null){
-                        try {
-                            writer.close();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
                 }
             }
         }

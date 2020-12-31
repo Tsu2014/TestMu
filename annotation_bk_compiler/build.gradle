@@ -5,6 +5,8 @@ plugins {
 dependencies{
     implementation fileTree(dir:'libs',include:['*.jar'])
     implementation project(path: ':annotation_bk')
+    implementation rootProject.ext.dependencies["javapoet"]
+
 
     annotationProcessor 'com.google.auto.service:auto-service:1.0-rc7'
     compileOnly 'com.google.auto.service:auto-service:1.0-rc7'
