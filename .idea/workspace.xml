@@ -33,11 +33,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="427ad441-3327-4ef8-8c9e-2860531b7083" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/androidTest/java/com/tsu/test2/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/Consts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/test/java/com/tsu/test2/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation_bk_compiler/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/annotation_bk_compiler/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation_bk_compiler/src/main/java/com/tsu/annotation_bk_compiler/BKAnnotationCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation_bk_compiler/src/main/java/com/tsu/annotation_bk_compiler/BKAnnotationCompiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +134,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="D:/Android" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/commonlib/src/main/java/com/tsu" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/annotation_bk/src/main/java/com/tsu/annotation_bk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/TestMu/test" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -119,9 +147,12 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.-1271589550">
-      <recent name="com.tsu.testmu.activity" />
-      <recent name="com.tsu.testmu" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\StudioProjects\TestMu\annotation_bk\src\main\java\com\tsu\annotation_bk" />
+      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\mine\src\main\res" />
+      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\home\src\main\res" />
+      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\find\src\main\res" />
+      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\chat\src\main\res" />
     </key>
     <key name="android.template.1042489058">
       <recent name="com.tsu.testmu.activity" />
@@ -132,15 +163,15 @@
       <recent name="com.tsu.mine" />
       <recent name="com.tsu.find" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\StudioProjects\TestMu\annotation_bk\src\main\java\com\tsu\annotation_bk" />
-      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\mine\src\main\res" />
-      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\home\src\main\res" />
-      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\find\src\main\res" />
-      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\chat\src\main\res" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tsu.test2" />
+    </key>
+    <key name="android.template.-1271589550">
+      <recent name="com.tsu.testmu.activity" />
+      <recent name="com.tsu.testmu" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android App.test2">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -433,12 +464,70 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test2" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="TestMu.test2" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Android App.app" />
       <item itemvalue="Android App.chat" />
       <item itemvalue="Android App.find" />
       <item itemvalue="Android App.home" />
       <item itemvalue="Android App.mine" />
+      <item itemvalue="Android App.test2" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -599,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609321137081</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update TSU_BUS and Activity Demo">
+      <created>1609407226142</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609407226142</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -666,10 +762,6 @@
     <state x="453" y="347" key="#PSD/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609401257489" />
     <state x="312" y="170" key="#PSD/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608707336368" />
     <state x="312" y="170" key="#PSD/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1607313007052" />
-    <state x="414" y="175" width="1092" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600850265135">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" width="1092" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600850265135" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1609398825846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -679,25 +771,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608805321931" />
-    <state x="532" y="87" key="CommitChangelistDialog2" timestamp="1609321135849">
+    <state x="532" y="87" key="CommitChangelistDialog2" timestamp="1609407225071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="532" y="87" key="CommitChangelistDialog2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609321135849" />
+    <state x="532" y="87" key="CommitChangelistDialog2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609407225071" />
     <state x="532" y="87" key="CommitChangelistDialog2/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608373804531" />
     <state x="532" y="87" key="CommitChangelistDialog2/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1608000008449" />
     <state x="100" y="100" width="1720" height="840" key="DiffContextDialog" timestamp="1609136560857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="100" width="1720" height="840" key="DiffContextDialog/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609136560857" />
-    <state x="100" y="100" width="1720" height="840" key="DiffContextDialog/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600931711629" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600755627625">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-763" y="-15" key="FileChooserDialogImpl" timestamp="1610015295517">
+      <screen x="-1080" y="-696" width="1080" height="1880" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600755627625" />
-    <state x="769" y="433" key="Github.CreateGistDialog" timestamp="1600940735007">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="433" key="Github.CreateGistDialog/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600940735007" />
+    <state x="-763" y="-15" key="FileChooserDialogImpl/-1080.-696.1080.1880/0.0.1920.1040@-1080.-696.1080.1880" timestamp="1610015295517" />
     <state x="832" y="417" key="Github.ShareDialog" timestamp="1607522322986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -706,25 +793,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="311" key="GridCell.Tab.0.bottom/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609306842570" />
-    <state width="1154" height="233" key="GridCell.Tab.0.bottom/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600914408169" />
     <state width="1860" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608695124567" />
     <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1609306842570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="311" key="GridCell.Tab.0.center/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609306842570" />
-    <state width="1154" height="233" key="GridCell.Tab.0.center/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600914408169" />
     <state width="1860" height="233" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608695124566" />
     <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1609306842570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="311" key="GridCell.Tab.0.left/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609306842570" />
-    <state width="1154" height="233" key="GridCell.Tab.0.left/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600914408168" />
     <state width="1860" height="233" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608695124566" />
     <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1609306842570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="311" key="GridCell.Tab.0.right/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609306842570" />
-    <state width="1154" height="233" key="GridCell.Tab.0.right/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600914408169" />
     <state width="1860" height="233" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608695124567" />
     <state x="250" y="79" key="MergeDialog" timestamp="1609133997776">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -742,12 +825,11 @@
     <state x="635" y="187" key="SettingsEditor" timestamp="1607677139313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="635" y="187" key="SettingsEditor/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600939293637" />
     <state x="635" y="187" key="SettingsEditor/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1607677139313" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609321144129">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609407234161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609321144129" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609407234161" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608357239705" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1608000018639" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1608088220917">
@@ -786,10 +868,6 @@
     </state>
     <state x="506" y="66" key="psd.add.module.dependency.panel.dimension/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609393091714" />
     <state x="506" y="66" key="psd.add.module.dependency.panel.dimension/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608198553412" />
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup" timestamp="1600768258203">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup/-1080.-852.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600768258203" />
     <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1609207210133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

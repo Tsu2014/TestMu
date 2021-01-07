@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/home" />
             <option value="$PROJECT_DIR$/httpLib" />
             <option value="$PROJECT_DIR$/mine" />
+            <option value="$PROJECT_DIR$/test2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

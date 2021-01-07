@@ -35,8 +35,8 @@ ext {
             //dagger2
             "dagger2"                : "com.google.dagger:dagger:${android["dagger2SdkVersion"]}",
             "dagger2-apt-compiler"   : "com.google.dagger:dagger-compiler:${android["dagger2SdkVersion"]}",
-            "rxandroid"              : "io.reactivex:rxandroid:1.1.0",
-            "rxjava"                 : "io.reactivex:rxjava:1.1.0",
+            "rxandroid"              : "io.reactivex.rxjava3:rxandroid:3.7.0",
+            "rxjava"                 : "io.reactivex.rxjava3:rxjava:3.7.0",
             "autolayout"             : "com.zhy:autolayout:1.4.5",
             "butterknife"            : "com.jakewharton:butterknife:${android["butterknifeSdkVersion"]}",
             "butterknife-apt"        : "com.jakewharton:butterknife-compiler:${android["butterknifeSdkVersion"]}",
