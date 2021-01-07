@@ -33,39 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="427ad441-3327-4ef8-8c9e-2860531b7083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/androidTest/java/com/tsu/test2/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/Consts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/test/java/com/tsu/test2/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -695,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609407226142</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add moudle test2">
+      <created>1610015642267</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610015642267</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -753,7 +728,8 @@
     <MESSAGE value="update TSUAnnotation" />
     <MESSAGE value="add TSU_BUS" />
     <MESSAGE value="update TSU_BUS and Activity Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="update TSU_BUS and Activity Demo" />
+    <MESSAGE value="add moudle test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add moudle test2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="347" width="966" height="532" key="#PSD" timestamp="1609401257489">
@@ -771,10 +747,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608805321931" />
-    <state x="532" y="87" key="CommitChangelistDialog2" timestamp="1609407225071">
+    <state x="532" y="87" key="CommitChangelistDialog2" timestamp="1610015641210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="532" y="87" key="CommitChangelistDialog2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609407225071" />
+    <state x="532" y="87" key="CommitChangelistDialog2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610015641210" />
     <state x="532" y="87" key="CommitChangelistDialog2/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608373804531" />
     <state x="532" y="87" key="CommitChangelistDialog2/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1608000008449" />
     <state x="100" y="100" width="1720" height="840" key="DiffContextDialog" timestamp="1609136560857">
@@ -826,10 +802,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="635" y="187" key="SettingsEditor/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1607677139313" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609407234161">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610015650660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609407234161" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610015650660" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608357239705" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1608000018639" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1608088220917">
