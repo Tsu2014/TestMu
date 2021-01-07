@@ -2,7 +2,7 @@ ext {
     //有重用的地方写在这里面，保证代码一致
     android = [compileSdkVersion       : 29,
                buildToolsVersion       : "29.0.3",
-               minSdkVersion           : 26,
+               minSdkVersion           : 24,
                targetSdkVersion        : 30,
                versionCode             : 100000,
                versionName             : "1.0.0",
@@ -25,8 +25,8 @@ ext {
             "annotations"            : "com.android.support:support-annotations:${android["androidSupportSdkVersion"]}",
             "recyclerview-v7"        : "com.android.support:recyclerview-v7:${android["androidSupportSdkVersion"]}",
             //网络框架
-            "retrofit"               : "com.squareup.retrofit2:retrofit:2.0.0",
-            "retrofit-converter-gson": "com.squareup.retrofit2:converter-gson:2.0.0",
+            "retrofit"               : "com.squareup.retrofit2:retrofit:2.1.0",
+            "retrofit-converter-gson": "com.squareup.retrofit2:converter-gson:2.1.0",
             "retrofit-adapter-rxjava": "com.squareup.retrofit2:adapter-rxjava:2.0.0",
             "converter-scalars"      : "com.squareup.retrofit2:converter-scalars:2.0.0",
             "okhttp3"                : "com.squareup.okhttp3:okhttp:3.2.0",
@@ -35,8 +35,8 @@ ext {
             //dagger2
             "dagger2"                : "com.google.dagger:dagger:${android["dagger2SdkVersion"]}",
             "dagger2-apt-compiler"   : "com.google.dagger:dagger-compiler:${android["dagger2SdkVersion"]}",
-            "rxandroid"              : "io.reactivex.rxjava3:rxandroid:3.7.0",
-            "rxjava"                 : "io.reactivex.rxjava3:rxjava:3.7.0",
+            "rxandroid2"              : "io.reactivex.rxjava2:rxandroid:2.1.0",
+            "rxjava2"                 : "com.squareup.retrofit2:retrofit:2.1.0",
             "autolayout"             : "com.zhy:autolayout:1.4.5",
             "butterknife"            : "com.jakewharton:butterknife:${android["butterknifeSdkVersion"]}",
             "butterknife-apt"        : "com.jakewharton:butterknife-compiler:${android["butterknifeSdkVersion"]}",

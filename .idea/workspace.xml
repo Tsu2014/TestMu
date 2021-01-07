@@ -5,89 +5,42 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="427ad441-3327-4ef8-8c9e-2860531b7083" name="Default Changelist" comment="">
+    <list default="true" id="c30706c9-ca04-4fe8-9988-5f775af7a5ac" name="Default Changelist" comment="update manifest dir">
+      <change afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/IGetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/Translation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonlib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/commonlib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Y101191200020]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/chat">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/app">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="XML Properties File" />
         <option value="Interface" />
-        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1gOmEqq19ssDm6sTvNihwJNzBKh" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectId" id="1lYjWtEEbVB1svfESg0lCgGdPep" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -96,47 +49,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Y101191200020" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-23T02:16:49.047Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="android.sdk.path" value="D:/Android" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/commonlib/src/main/java/com/tsu" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/TestMu/test" />
+    <property name="ignore.preview.features.used" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-  </component>
-  <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Default Config" />
-    <option name="BUILD_VARIANTS_TAB" value="Build Types" />
-    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
-    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\StudioProjects\TestMu\annotation_bk\src\main\java\com\tsu\annotation_bk" />
-      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\mine\src\main\res" />
-      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\home\src\main\res" />
-      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\find\src\main\res" />
-      <recent name="C:\Users\Administrator\AndroidStudioProjects\TestMu\chat\src\main\res" />
+      <recent name="D:\AndroidStudioProjects\TestMu" />
+      <recent name="D:\AndroidStudioProjects\TestMu\chat\src\main\manifest" />
+      <recent name="D:\AndroidStudioProjects\TestMu\find\src\main\manifest" />
+      <recent name="D:\AndroidStudioProjects\TestMu\home\src\main\manifest" />
+      <recent name="D:\AndroidStudioProjects\TestMu\mine\src\main\manifest" />
     </key>
-    <key name="android.template.1042489058">
-      <recent name="com.tsu.testmu.activity" />
-    </key>
-    <key name="android.template.-1585917407">
-      <recent name="com.tsu.chat" />
-      <recent name="com.tsu.mine.activity" />
-      <recent name="com.tsu.mine" />
-      <recent name="com.tsu.find" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tsu.test2" />
-    </key>
-    <key name="android.template.-1271589550">
-      <recent name="com.tsu.testmu.activity" />
-      <recent name="com.tsu.testmu" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AndroidStudioProjects\TestMu\TSU_BUS\src\main\java\com\tsu\tsu_bus" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.test2">
@@ -147,7 +78,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="TestMu.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -197,186 +128,15 @@
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="com.tsu.testmu.activity.MainActivity" />
+      <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chat" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="chat" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="TestMu.chat" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="false" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="find" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="TestMu.find" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="false" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="home" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="TestMu.home" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="false" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mine" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="TestMu.mine" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -489,365 +249,99 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Android App.app" />
-      <item itemvalue="Android App.chat" />
-      <item itemvalue="Android App.find" />
-      <item itemvalue="Android App.home" />
-      <item itemvalue="Android App.mine" />
-      <item itemvalue="Android App.test2" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="427ad441-3327-4ef8-8c9e-2860531b7083" name="Default Changelist" comment="" />
-      <created>1597993903279</created>
+      <changelist id="c30706c9-ca04-4fe8-9988-5f775af7a5ac" name="Default Changelist" comment="" />
+      <created>1607780953823</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597993903279</updated>
+      <updated>1607780953823</updated>
     </task>
-    <task id="LOCAL-00001" summary="update">
-      <created>1607313084718</created>
+    <task id="LOCAL-00001" summary="update manifest dir">
+      <created>1607955564692</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1607313084718</updated>
+      <updated>1607955564692</updated>
     </task>
-    <task id="LOCAL-00002" summary="change chat module false">
-      <created>1607416979338</created>
+    <task id="LOCAL-00002" summary="update manifest dir">
+      <created>1608253509971</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1607416979338</updated>
+      <updated>1608253509971</updated>
     </task>
-    <task id="LOCAL-00003" summary="commit .">
-      <created>1607523184785</created>
+    <task id="LOCAL-00003" summary="create http lib">
+      <created>1608817060625</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1607523184796</updated>
+      <updated>1608817060625</updated>
     </task>
-    <task id="LOCAL-00004" summary="delete test">
-      <created>1608000009297</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1608000009298</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add SRouter">
-      <created>1608028619449</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1608028619449</updated>
-    </task>
-    <task id="LOCAL-00006" summary="18:30">
-      <created>1608201161753</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1608201161775</updated>
-    </task>
-    <task id="LOCAL-00007" summary="20:08">
-      <created>1608206943909</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1608206943909</updated>
-    </task>
-    <task id="LOCAL-00008" summary="20:10">
-      <created>1608207057399</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1608207057399</updated>
-    </task>
-    <task id="LOCAL-00009" summary="test">
-      <created>1608269495852</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1608269495852</updated>
-    </task>
-    <task id="LOCAL-00010" summary="17:33">
-      <created>1608284006251</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1608284006251</updated>
-    </task>
-    <task id="LOCAL-00011" summary="提交SRouter完成功能代码">
-      <created>1608357232515</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1608357232515</updated>
-    </task>
-    <task id="LOCAL-00012" summary="优化注解处理器的导入&#10;优化SRouter类的调用">
-      <created>1608358716081</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1608358716081</updated>
-    </task>
-    <task id="LOCAL-00013" summary="update butterknife">
-      <created>1608804935097</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1608804935098</updated>
-    </task>
-    <task id="LOCAL-00014" summary="18:30">
-      <created>1608806016257</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1608806016257</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add onClick annotation">
-      <created>1608885630377</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1608885630377</updated>
-    </task>
-    <task id="LOCAL-00016" summary="update TSUAnnotation">
-      <created>1608889832175</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1608889832175</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add TSU_BUS">
-      <created>1609151843318</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1609151843318</updated>
-    </task>
-    <task id="LOCAL-00018" summary="update TSU_BUS and Activity Demo">
-      <created>1609207741199</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1609207741199</updated>
-    </task>
-    <task id="LOCAL-00019" summary="update TSU_BUS and Activity Demo">
-      <created>1609209576924</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1609209576924</updated>
-    </task>
-    <task id="LOCAL-00020" summary="update TSU_BUS and Activity Demo">
-      <created>1609233151248</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1609233151248</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update TSU_BUS and Activity Demo">
-      <created>1609321137081</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1609321137081</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update TSU_BUS and Activity Demo">
-      <created>1609407226142</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1609407226142</updated>
-    </task>
-    <task id="LOCAL-00023" summary="add moudle test2">
-      <created>1610015642267</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1610015642267</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="1">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:C:/Users/Administrator/StudioProjects/TestMu/annotation_bk" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
-    <MESSAGE value="change chat module false" />
-    <MESSAGE value="commit ." />
-    <MESSAGE value="delete test" />
-    <MESSAGE value="add SRouter" />
-    <MESSAGE value="20:08" />
-    <MESSAGE value="20:10" />
-    <MESSAGE value="test" />
-    <MESSAGE value="17:33" />
-    <MESSAGE value="提交SRouter完成功能代码" />
-    <MESSAGE value="优化注解处理器的导入&#10;优化SRouter类的调用" />
-    <MESSAGE value="update butterknife" />
-    <MESSAGE value="18:30" />
-    <MESSAGE value="add onClick annotation" />
-    <MESSAGE value="update TSUAnnotation" />
-    <MESSAGE value="add TSU_BUS" />
-    <MESSAGE value="update TSU_BUS and Activity Demo" />
-    <MESSAGE value="add moudle test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add moudle test2" />
+    <MESSAGE value="update manifest dir" />
+    <MESSAGE value="create http lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="create http lib" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="347" width="966" height="532" key="#PSD" timestamp="1609401257489">
+    <state x="477" y="266" key="#PSD" timestamp="1610030975028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="347" key="#PSD/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609401257489" />
-    <state x="312" y="170" key="#PSD/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608707336368" />
-    <state x="312" y="170" key="#PSD/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1607313007052" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1609398825846">
+    <state x="477" y="266" key="#PSD/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610030975028" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610024358116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609398825846" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608624878643" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608805321931">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610024358116" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1610030039196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608805321931" />
-    <state x="532" y="87" key="CommitChangelistDialog2" timestamp="1610015641210">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610030039196" />
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1607954907979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="532" y="87" key="CommitChangelistDialog2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610015641210" />
-    <state x="532" y="87" key="CommitChangelistDialog2/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608373804531" />
-    <state x="532" y="87" key="CommitChangelistDialog2/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1608000008449" />
-    <state x="100" y="100" width="1720" height="840" key="DiffContextDialog" timestamp="1609136560857">
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1607954907979" />
+    <state x="558" y="87" key="CommitChangelistDialog2" timestamp="1608817058695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="100" y="100" width="1720" height="840" key="DiffContextDialog/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609136560857" />
-    <state x="-763" y="-15" key="FileChooserDialogImpl" timestamp="1610015295517">
-      <screen x="-1080" y="-696" width="1080" height="1880" />
-    </state>
-    <state x="-763" y="-15" key="FileChooserDialogImpl/-1080.-696.1080.1880/0.0.1920.1040@-1080.-696.1080.1880" timestamp="1610015295517" />
-    <state x="832" y="417" key="Github.ShareDialog" timestamp="1607522322986">
+    <state x="558" y="87" key="CommitChangelistDialog2/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608817058695" />
+    <state x="100" y="100" width="1720" height="840" key="DiffContextDialog" timestamp="1608812499260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="832" y="417" key="Github.ShareDialog/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1607522322986" />
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1609306842570">
+    <state x="100" y="100" width="1720" height="840" key="DiffContextDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608812499260" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1610024113886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609306842570" />
-    <state width="1860" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608695124567" />
-    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1609306842570">
+    <state x="184" y="86" key="MergeDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610024113886" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1609076052497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.center/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609306842570" />
-    <state width="1860" height="233" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608695124566" />
-    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1609306842570">
+    <state x="461" y="164" key="SettingsEditor/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609076052497" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1609076070600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.left/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609306842570" />
-    <state width="1860" height="233" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608695124566" />
-    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1609306842570">
+    <state width="498" height="446" key="SwitcherDM/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609076070600" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608819925048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.right/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609306842570" />
-    <state width="1860" height="233" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608695124567" />
-    <state x="250" y="79" key="MergeDialog" timestamp="1609133997776">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608819925048" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610025049376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="250" y="79" key="MergeDialog/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609133997776" />
-    <state x="595" y="221" key="RollbackChangesDialog" timestamp="1609134186501">
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610025049376" />
+    <state x="681" y="307" key="git4idea.merge.GitPullDialog" timestamp="1608295181869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="595" y="221" key="RollbackChangesDialog/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609134186501" />
-    <state x="595" y="221" key="RollbackChangesDialog/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608114609925" />
-    <state x="397" y="0" key="ScreenshotViewer.Dimensions" timestamp="1608694935109">
+    <state x="681" y="307" key="git4idea.merge.GitPullDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608295181869" />
+    <state x="671" y="162" key="psd.add.module.dependency.panel.dimension" timestamp="1608899714367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="397" y="0" key="ScreenshotViewer.Dimensions/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608694935109" />
-    <state x="635" y="187" key="SettingsEditor" timestamp="1607677139313">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="635" y="187" key="SettingsEditor/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1607677139313" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610015650660">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610015650660" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608357239705" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1608000018639" />
-    <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1608088220917">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608088220917" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609204124088">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609204124088" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608253592045" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1080.-837.1080.1920@0.0.1920.1040" timestamp="1607994436608" />
-    <state x="-1080" y="-509" width="1096" height="718" key="dock-window-1" timestamp="1608888110397">
-      <screen x="-1080" y="-696" width="1080" height="1880" />
-    </state>
-    <state x="-1080" y="-509" width="1096" height="718" key="dock-window-1/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608888110397" />
-    <state x="-1080" y="-569" width="1096" height="718" key="dock-window-2" timestamp="1608888273010">
-      <screen x="-1080" y="-696" width="1080" height="1880" />
-    </state>
-    <state x="-1080" y="-569" width="1096" height="718" key="dock-window-2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608888273010" />
-    <state x="673" y="307" key="git4idea.merge.GitPullDialog" timestamp="1609134415489">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="673" y="307" key="git4idea.merge.GitPullDialog/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609134415489" />
-    <state x="506" y="274" key="psd.add.jar.dependency.panel.dimension" timestamp="1608196998955">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="506" y="274" key="psd.add.jar.dependency.panel.dimension/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608196998955" />
-    <state x="598" y="275" key="psd.add.library.dependency.panel.dimension" timestamp="1609401254208">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="598" y="275" key="psd.add.library.dependency.panel.dimension/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609401254208" />
-    <state x="598" y="275" key="psd.add.library.dependency.panel.dimension/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608196993567" />
-    <state x="506" y="66" key="psd.add.module.dependency.panel.dimension" timestamp="1609393091714">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="506" y="66" key="psd.add.module.dependency.panel.dimension/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609393091714" />
-    <state x="506" y="66" key="psd.add.module.dependency.panel.dimension/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608198553412" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1609207210133">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609207210133" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1080.-837.1080.1880@0.0.1920.1040" timestamp="1608260565195" />
+    <state x="671" y="162" key="psd.add.module.dependency.panel.dimension/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608899714367" />
   </component>
 </project>
