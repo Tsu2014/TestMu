@@ -5,16 +5,36 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c30706c9-ca04-4fe8-9988-5f775af7a5ac" name="Default Changelist" comment="update manifest dir">
-      <change afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/IGetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/Translation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonlib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/commonlib/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/test2/src/main/java/com/tsu/test2/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +42,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Y101191200020]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -52,22 +72,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/annotation_compiler" />
+    <property name="project.structure.last.edited" value="Variables" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AndroidStudioProjects\TestMu\TSU_BUS\src\main\java\com\tsu\tsu_bus" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AndroidStudioProjects\TestMu" />
       <recent name="D:\AndroidStudioProjects\TestMu\chat\src\main\manifest" />
       <recent name="D:\AndroidStudioProjects\TestMu\find\src\main\manifest" />
       <recent name="D:\AndroidStudioProjects\TestMu\home\src\main\manifest" />
       <recent name="D:\AndroidStudioProjects\TestMu\mine\src\main\manifest" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\AndroidStudioProjects\TestMu\TSU_BUS\src\main\java\com\tsu\tsu_bus" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.test2">
@@ -192,7 +215,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test2" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="test2" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="TestMu.test2" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -249,6 +272,11 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Android App.test2" />
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Android App.chat" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -285,19 +313,33 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update manifest dir" />
     <MESSAGE value="create http lib" />
     <option name="LAST_COMMIT_MESSAGE" value="create http lib" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="266" key="#PSD" timestamp="1610030975028">
+    <state x="477" y="266" key="#PSD" timestamp="1610069162994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="477" y="266" key="#PSD/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610069162994" />
     <state x="477" y="266" key="#PSD/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610030975028" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610024358116">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610069091133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610069091133" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610024358116" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1610030039196">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -315,6 +357,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="100" width="1720" height="840" key="DiffContextDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608812499260" />
+    <state x="737" y="261" key="FileChooserDialogImpl" timestamp="1610068548473">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="737" y="261" key="FileChooserDialogImpl/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610068548473" />
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1610072069723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610072069723" />
+    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1610072069722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.center/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610072069722" />
+    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1610072069722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.left/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610072069722" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1610072069722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.right/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610072069722" />
     <state x="184" y="86" key="MergeDialog" timestamp="1610024113886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,10 +393,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608819925048" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610025049376">
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610068514298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610068514298" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610025049376" />
+    <state x="-1080" y="-696" width="1096" height="1880" key="dock-window-1" timestamp="1610068934694">
+      <screen x="-1080" y="-696" width="1080" height="1880" />
+    </state>
+    <state x="-1080" y="-696" width="1096" height="1880" key="dock-window-1/-1080.-696.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610068934694" />
     <state x="681" y="307" key="git4idea.merge.GitPullDialog" timestamp="1608295181869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

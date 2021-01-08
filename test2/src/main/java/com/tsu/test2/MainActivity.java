@@ -51,7 +51,17 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.main_button1)
     void action1(){
         Log.d(TAG , "action1");
-        Observable.interval(2,1,TimeUnit.SECONDS).doOnNext(consumer).subscribe(observer1);
+
+        /*
+         * 步骤1：采用interval（）延迟发送
+         * 注：此处主要展示无限次轮询，若要实现有限次轮询，仅需将interval（）改成intervalRange（）即可
+         * arg 1 : first delay time
+         * arg 2 : interval time
+         * arg 3 : time unit
+         *
+         * doOnNext 每次发送数字前发送一次网络请求，即每隔1秒产生一个数字，同时发送一次网络请求，从而实现轮询
+         **/
+        Observable.interval(2,1,TimeUnit.SECONDS).doOnNext(consumer).subscribe(timeObserver);
     }
 
     @OnClick(R.id.main_button2)
@@ -81,16 +91,18 @@ public class MainActivity extends AppCompatActivity {
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                     .build();
 
+            //create request object
             IGetRequest request = retrofit.create(IGetRequest.class);
+            //采用Observable形式对网络请求进行封装
             Observable<Translation> observable = request.getCall();
             observable.subscribeOn(Schedulers.io())
-                    .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe(observer2);
+                    .observeOn(AndroidSchedulers.mainThread())  //切换主线程
+                    .subscribe(reqObserver);
 
         }
     };
 
-    Observer<Translation> observer2 = new Observer<Translation>() {
+    Observer<Translation> reqObserver = new Observer<Translation>() {
         @Override
         public void onSubscribe(@NonNull Disposable d) {
 
@@ -112,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    Observer<Long> observer1 = new Observer<Long>() {
+    Observer<Long> timeObserver = new Observer<Long>() {
         @Override
         public void onSubscribe(@NonNull Disposable d) {
 
