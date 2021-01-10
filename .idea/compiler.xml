@@ -34,6 +34,7 @@
       <module name="TestMu.ImageLib" target="13" />
       <module name="TestMu.mine" target="13" />
       <module name="TestMu.test2" target="13" />
+      <module name="TestMu.trxjava" target="13" />
       <module name="TestMu.TSU_BUS" target="13" />
     </bytecodeTargetLevel>
   </component>

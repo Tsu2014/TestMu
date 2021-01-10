@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import butterknife.BindView;
@@ -57,6 +60,16 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.main_button2)
     void action2(){
         Log.d(TAG , "action2");
+        Properties properties = System.getProperties();
+        Iterator<Map.Entry<Object , Object>> iterator = properties.entrySet().iterator();
+        while(iterator.hasNext()){
+            Map.Entry<Object , Object> entry = iterator.next();
+            Log.d(TAG , ""+entry.getKey()+" : "+entry.getValue());
+        }
+    }
+
+    private void testSystem(){
+
     }
 
     @OnClick(R.id.main_button3)

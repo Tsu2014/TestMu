@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/httpLib" />
             <option value="$PROJECT_DIR$/mine" />
             <option value="$PROJECT_DIR$/test2" />
+            <option value="$PROJECT_DIR$/trxjava" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
