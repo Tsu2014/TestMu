@@ -25,6 +25,7 @@ public class BitmapRequest {
 
     public BitmapRequest load(String url) {
         this.url = url;
+        this.urlMD5 = MD5Utils.toMD5(this.url);
         return this;
     }
 
@@ -39,6 +40,7 @@ public class BitmapRequest {
     }
 
     public void into(ImageView imageView) {
+        imageView.setTag(this.urlMD5);
         this.imageView = new SoftReference<>(imageView);
     }
 }
