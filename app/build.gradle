@@ -43,6 +43,8 @@ dependencies {
     implementation rootProject.ext.dependencies["annotations"]
     implementation project(path: ':httpLib')
     implementation project(path: ':TSU_BUS')
+    implementation project(path: ':ImageLib')
+    implementation project(path: ':ImageLib')
     annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
     annotationProcessor rootProject.ext.dependencies["dagger2-apt-compiler"]
     compileOnly rootProject.ext.dependencies["javax.annotation"]

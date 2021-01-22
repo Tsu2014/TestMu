@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpLib/TestMu.httpLib.iml" filepath="$PROJECT_DIR$/.idea/modules/httpLib/TestMu.httpLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mine/TestMu.mine.iml" filepath="$PROJECT_DIR$/.idea/modules/mine/TestMu.mine.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test2/TestMu.test2.iml" filepath="$PROJECT_DIR$/.idea/modules/test2/TestMu.test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testdb/TestMu.testdb.iml" filepath="$PROJECT_DIR$/.idea/modules/testdb/TestMu.testdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trxjava/TestMu.trxjava.iml" filepath="$PROJECT_DIR$/.idea/modules/trxjava/TestMu.trxjava.iml" />
     </modules>
   </component>

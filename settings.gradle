@@ -1,3 +1,4 @@
+include ':testdb'
 include ':trxjava'
 include ':test2'
 include ':TSU_BUS'
