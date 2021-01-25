@@ -10,51 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c30706c9-ca04-4fe8-9988-5f775af7a5ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/BitmapDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/RequestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/androidTest/java/com/tsu/testdb/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/java/com/tsu/testdb/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/java/com/tsu/testdb/lib/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/java/com/tsu/testdb/lib/BaseDaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/java/com/tsu/testdb/lib/DBField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/java/com/tsu/testdb/lib/DBTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/java/com/tsu/testdb/lib/IBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/java/com/tsu/testdb/lib/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdb/src/test/java/com/tsu/testdb/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/cache/base/BaseCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/cache/cache/DiskCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/cache/cache/DoubleLruCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/cache/cache/MemoryLruCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/cache/util/DiskLruCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/cache/util/StrictLineReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/cache/util/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/BitmapDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/BitmapDispatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/BitmapRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/BitmapRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/RequestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/RequestManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tsu/testmu/activity/TestActivity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tsu/testmu/activity/TestActivity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +38,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -94,25 +62,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../strongswan-android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ImageLib/src/main/java/com/example/imagelib/cache/util" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\AndroidStudioProjects\TestMu\TSU_BUS\src\main\java\com\tsu\tsu_bus" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AndroidStudioProjects\TestMu\ImageLib\src\main\java\com\example\imagelib\cache\util" />
+      <recent name="D:\AndroidStudioProjects\TestMu" />
+      <recent name="D:\AndroidStudioProjects\TestMu\trxjava\src\main\res\layout" />
+      <recent name="D:\AndroidStudioProjects\TestMu\chat\src\main\manifest" />
+      <recent name="D:\AndroidStudioProjects\TestMu\find\src\main\manifest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tsu.trxjava" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AndroidStudioProjects\TestMu\trxjava\src\main\res\layout" />
-      <recent name="D:\AndroidStudioProjects\TestMu" />
-      <recent name="D:\AndroidStudioProjects\TestMu\chat\src\main\manifest" />
-      <recent name="D:\AndroidStudioProjects\TestMu\find\src\main\manifest" />
-      <recent name="D:\AndroidStudioProjects\TestMu\home\src\main\manifest" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AndroidStudioProjects\TestMu\TSU_BUS\src\main\java\com\tsu\tsu_bus" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.testdb">
@@ -466,18 +434,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="update ImageUtil" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="266" key="#PSD" timestamp="1611065713305">
+    <state x="323" y="272" key="#PSD" timestamp="1611490173929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="477" y="266" key="#PSD/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611065713305" />
+    <state x="323" y="272" key="#PSD/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611490173929" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610024358116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610024358116" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1611320919273">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1611586705738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611320919273" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611586705738" />
     <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1607954907979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -498,10 +466,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="MergeDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1610024113886" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1609076052497">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1611413847193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1609076052497" />
+    <state x="461" y="164" key="SettingsEditor/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611413847193" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1609076070600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -518,6 +486,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="307" key="git4idea.merge.GitPullDialog/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1608295181869" />
+    <state x="517" y="376" key="psd.add.jar.dependency.panel.dimension" timestamp="1611489421275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="517" y="376" key="psd.add.jar.dependency.panel.dimension/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611489421275" />
+    <state x="395" y="266" key="psd.add.library.dependency.panel.dimension" timestamp="1611490173123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="395" y="266" key="psd.add.library.dependency.panel.dimension/1920.-836.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611490173123" />
     <state x="671" y="162" key="psd.add.module.dependency.panel.dimension" timestamp="1611065710220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

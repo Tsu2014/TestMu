@@ -44,4 +44,44 @@ public class BitmapRequest {
         this.imageView = new SoftReference<>(imageView);
         RequestManager.getInstance().addBitmapRequest(this);
     }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public int getResId() {
+        return resId;
+    }
+
+    public void setResId(int resId) {
+        this.resId = resId;
+    }
+
+    public IRequestListener getRequestListener() {
+        return requestListener;
+    }
+
+    public void setRequestListener(IRequestListener requestListener) {
+        this.requestListener = requestListener;
+    }
+
+    public String getUrlMD5() {
+        return urlMD5;
+    }
+
+    public void setUrlMD5(String urlMD5) {
+        this.urlMD5 = urlMD5;
+    }
+
+    public ImageView getImageView() {
+        return imageView.get();
+    }
+
+    public void setImageView(SoftReference<ImageView> imageView) {
+        this.imageView = imageView;
+    }
 }

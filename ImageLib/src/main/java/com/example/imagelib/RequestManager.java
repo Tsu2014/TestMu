@@ -14,6 +14,7 @@ public class RequestManager {
 
     private RequestManager(){
         mQueue = new LinkedBlockingQueue<>();
+        stop();
         createAndOpenThread();
     }
 
@@ -21,10 +22,20 @@ public class RequestManager {
         int count = Runtime.getRuntime().availableProcessors();
         bitmapDispatchers = new BitmapDispatcher[count];
         for(int i =0;i<count;i++){
-            BitmapDispatcher bitmapDispatcher = new BitmapDispatcher();
+            BitmapDispatcher bitmapDispatcher = new BitmapDispatcher(mQueue);
             bitmapDispatcher.start();
             bitmapDispatchers[i] = bitmapDispatcher;
 
+        }
+    }
+
+    public void stop(){
+        if(bitmapDispatchers!= null && bitmapDispatchers.length>0){
+            for(BitmapDispatcher bitmapDispatcher : bitmapDispatchers){
+                if(bitmapDispatcher.isInterrupted()){
+                    bitmapDispatcher.interrupt();
+                }
+            }
         }
     }
 
